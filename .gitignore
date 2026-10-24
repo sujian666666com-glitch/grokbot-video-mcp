@@ -1,0 +1,30 @@
+# Credentials, personal media, runtime state and local services
+data/
+logs/
+bin/
+.env
+.env.*
+config.json
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+*.pem
+*.key
+verification.json
+tests/live-*
+tests/config-verification.json
+tests/mcp-tools.json
+
+# Python and local agent state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.work/
+.omc/
+.DS_Store
+ik.md
